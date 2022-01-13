@@ -10,6 +10,7 @@
 <body>
     {% include 'includes/header.html' %}
     <main>
+        {% for restaurant in res_list %}
         <!--<p>Search term: {{search_term or 'None Specified'}}</p>-->
         <!--<p>Data: {{ restaurant }}</p>-->
         <section>
@@ -24,6 +25,7 @@
             <!--<h2>Top Restaurant:</h2> -->
             <!--<p>Name: {{ restaurant.get('name') }}</p>-->
         </section>
+        {% endfor %}
     </main>
 </body>
 </html>
