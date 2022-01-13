@@ -15,7 +15,7 @@ main {
 }
 section {
     border: dotted 1px #CCC; 
-    width: 350px;   
+    width: 150px;   
     padding-bottom: 20px;
     margin: 10px;
 }
